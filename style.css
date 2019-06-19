@@ -1,0 +1,75 @@
+header {
+  height: 100vh;
+  background: radial-gradient(circle farthest-corner at top, #000, #000);
+ font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+body {
+  height: 100vh;
+  background: radial-gradient(circle farthest-corner at top, #000, #000);
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.product-wrap {
+  position: absolute;
+  display: inline;
+
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: left;
+  h2 {
+    font-size: 3rem;
+  }
+  
+    h3 {
+    font-size: 3rem;
+	text-align: right;
+  }
+  
+  p {
+   font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+  }
+}
+
+
+
+
+
+
+
+.top {
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  background: #333;
+  transform: rotateX(60deg) rotateZ(45deg);
+}
+.left {
+  position: absolute;
+  top: 34px;
+  left: -10px;
+  width: 35px;
+  height: 50px;
+  background: #222;
+  transform: skewY(27deg);
+  animation: bump 4s ease-in-out infinite;
+}
+.right {
+  position: absolute;
+  top: 34px;
+  left: 25px;
+  width: 35px;
+  height: 50px;
+  background: #2e2e2e;
+  transform: skewY(-27deg);
+  animation: bump 4s ease-in-out infinite;
+}
+
